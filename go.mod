@@ -1,4 +1,4 @@
-module github.com/hirosassa/bqiam
+module github.com/yokomotod/bqiam
 
 go 1.17
 
