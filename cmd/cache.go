@@ -126,7 +126,7 @@ func listProjects(ctx context.Context) (*[]string, error) {
 
 		list, err := call.Do()
 		if err != nil {
-			return nil, errors.New("failed to call bigquery API")
+			return nil, fmt.Errorf("failed to call bigquery API: %w", err)
 		}
 
 		for _, project := range list.Projects { // extract bigquery project
