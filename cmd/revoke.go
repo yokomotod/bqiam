@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/hirosassa/bqiam/bqrole"
+	"github.com/yokomotod/bqiam/bqrole"
 )
 
 func init() {

@@ -1,6 +1,6 @@
 # bqiam
 
-[![Actions Status: golangci-lint](https://github.com/hirosassa/bqiam/workflows/golangci-lint/badge.svg)](https://github.com/hirosassa/bqiam/actions?query=workflow%3A"golangci-lint")
+[![Actions Status: golangci-lint](https://github.com/yokomotod/bqiam/workflows/golangci-lint/badge.svg)](https://github.com/yokomotod/bqiam/actions?query=workflow%3A"golangci-lint")
 [![Apache-2.0](https://img.shields.io/github/license/hirosassa/bqiam)](LICENSE)
 
 
@@ -23,7 +23,7 @@ You must have a `roles/owner` on your GCP project.
 ## Install
 
 ```bash
-$ go install github.com/hirosassa/bqiam@latest
+$ go install github.com/yokomotod/bqiam@latest
 ```
 
 

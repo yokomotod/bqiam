@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/hirosassa/bqiam/cmd"
+import "github.com/yokomotod/bqiam/cmd"
 
 func main() {
 	cmd.Execute()

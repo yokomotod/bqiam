@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hirosassa/bqiam/bqrole"
-	"github.com/hirosassa/bqiam/completion"
+	"github.com/yokomotod/bqiam/bqrole"
+	"github.com/yokomotod/bqiam/completion"
 
 	"github.com/spf13/cobra"
 )

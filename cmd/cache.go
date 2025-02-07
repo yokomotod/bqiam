@@ -29,7 +29,7 @@ import (
 	"google.golang.org/api/bigquery/v2"
 	"google.golang.org/api/iterator"
 
-	"github.com/hirosassa/bqiam/metadata"
+	"github.com/yokomotod/bqiam/metadata"
 )
 
 // cacheCmd represents the cache command
