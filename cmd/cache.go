@@ -174,10 +174,11 @@ func listMetaData(ctx context.Context, client *bq.Client, project, dataset strin
 	var metas metadata.Metas
 	for _, a := range md.Access {
 		d := metadata.Meta{
-			Project: project,
-			Dataset: dataset,
-			Role:    a.Role,
-			Entity:  a.Entity,
+			Project:    project,
+			Dataset:    dataset,
+			Role:       a.Role,
+			Entity:     a.Entity,
+			EntityType: a.EntityType,
 		}
 		metas.Metas = append(metas.Metas, d)
 	}

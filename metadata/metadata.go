@@ -13,10 +13,11 @@ type Metas struct {
 }
 
 type Meta struct {
-	Project string        `toml:"Project"`
-	Dataset string        `toml:"Dataset"`
-	Role    bq.AccessRole `toml:"Role"`
-	Entity  string        `toml:"Entity"`
+	Project    string        `toml:"Project"`
+	Dataset    string        `toml:"Dataset"`
+	Role       bq.AccessRole `toml:"Role"`
+	Entity     string        `toml:"Entity"`
+	EntityType bq.EntityType `toml:"EntityType"`
 }
 
 // Load reads cacheFile.
